@@ -22,9 +22,9 @@ DB_NAME = 'geolocalizacao'
 compare=['latitude', 'longitude']
 
 ###Environment Config. - ajustar esses valores!
-filepath = "/home/daniellj/Projetos/ETL_Python/data/"
-APIKEYGOOGLEMAPS = 'AIzaSyAgaYMWeeU4aM1MaTVb40uuNBtbZNo8PLQ' #your api key (Google Maps)
-DB_HOST = '192.168.1.150' #MySQL Server HostName or IP_Address
+filepath = "/home/your_home/Projetos/ETL_Python/data/"
+APIKEYGOOGLEMAPS = '' #your api key (Google Maps)
+DB_HOST = '' #MySQL Server HostName or IP_Address
 DB_PORT = 3306 # MySQL default Port
 
 def files_to_process(path, name, ext):
