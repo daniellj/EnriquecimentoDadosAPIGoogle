@@ -21,11 +21,12 @@ DB_PASS = 'Geolx!177'
 DB_NAME = 'geolocalizacao'
 compare=['latitude', 'longitude']
 
-###Environment Config. - ajustar esses valores!
-filepath = "/home/your_home/Projetos/ETL_Python/data/"
-APIKEYGOOGLEMAPS = '' #your api key (Google Maps)
-DB_HOST = '' #MySQL Server HostName or IP_Address
-DB_PORT = 3306 # MySQL default Port
+### Environment Config. - ajustar esses valores!
+filepath = '/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/data/' # folder where the "data_points.txt" file is located
+APIKEYGOOGLEMAPS = '' # your api key (Google Maps)
+#APIKEYGOOGLEMAPS = 'AIzaSyAgaYMWeeU4aM1MaTVb40uuNBtbZNo8PLQ' # apikey for my personal google account! Needed change this value!
+DB_HOST = '' # SGBD HostName or IP_Address
+DB_PORT = '' # SGBD default Port Number
 
 def files_to_process(path, name, ext):
     '''
@@ -117,7 +118,7 @@ def recursive_geocode_googlemaps(latitude, longitude):
     result_type = 'street_address|street_number|country|administrative_area_level_1|administrative_area_level_2|postal_code' # 'street_address|street_number|country|administrative_area_level_1|administrative_area_level_2|postal_code'
     language = 'pt' #en = inglês
     location_type='ROOFTOP'
-    apikey = 'AIzaSyAgaYMWeeU4aM1MaTVb40uuNBtbZNo8PLQ'
+    apikey = APIKEYGOOGLEMAPS
 
     base = "https://maps.googleapis.com/maps/api/geocode/json?"
     params = "latlng={lat},{lon}&sensor={sen}&result_type={result_type}&language={language}&location_type={location_type}".format(
