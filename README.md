@@ -65,17 +65,26 @@ O desenvolvimento da rotina visa buscar o conteúdo de um arquivo de entrada, co
 
 #### Default Values - não modificar esses valores!
 LINHA 16 - filename = "data_points"
+
 LINHA 17 - extension = "txt"
+
 LINHA 18 - TABLENAME = 'geolocalizacao'
+
 LINHA 19 - DB_USER = 'geolocalizacao'
+
 LINHA 20 - DB_PASS = 'Geolx!177'
+
 LINHA 21 - DB_NAME = 'geolocalizacao'
+
 LINHA 22 - compare=['latitude', 'longitude']
 
 #### Environment Config. - ajustar esses valores!
 LINHA 24 - filepath = "/home/your_username/Projetos/ETL_Python/data/"
+
 LINHA 25 - APIKEYGOOGLEMAPS = '' #inserir sua chave para conexão à API do Google Maps
+
 LINHA 26 - DB_HOST = 'MySQL Server HostName or IP_Address'
+
 LINHA 27 - DB_PORT = 3306 # MySQL default Port
 
 10. - Salve as alterações do script ("EnriquecimentoDados-APIGoogle.py").
