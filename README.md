@@ -42,7 +42,7 @@ latitude|longitude|rua|numero|bairro|cidade|cep|estado|pais|endereço completo
 
 # Lógica da solução desenvolvida
 
-O desenvolvimento da rotina visa buscar o conteúdo de um arquivo de entrada, com o nome padrão esperado de "data_points.txt", encontrando suas coordenada geográficas (latitude e longitude). Para cada coordenada de entrada, busca enriquecer uma base de dados de endereços através de consultas na API do Google Maps. Na rotina, foram tratadoa eventos de falhas na aquisição e decodificação do arquivo JSON que é retornado pela API, assim como há uma checagem se os registros do arquivo já não existem no banco; se existem, não os insere para não gerar duplicidade. Se não encontrar um correspondente no banco de dados, insere o novo registro na tabela. As chaves para essa verificação são: latitude e longitude.
+O desenvolvimento da rotina visa buscar o conteúdo de um arquivo de entrada, com o nome padrão esperado de "data_points.txt", encontrando suas coordenada geográficas (latitude e longitude). Para cada coordenada de entrada, busca enriquecer uma base de dados de endereços através de consultas na API do Google Maps. Na rotina, foram tratados eventos de falhas na aquisição e decodificação do arquivo JSON que é retornado pela API, assim como há uma checagem para cada uma das coordenadas (latitude/longitude) indicadas no arquivo se estas já existem ou não no banco de dados; se existem, não os insere para não gerar duplicidade. Se não encontrar um correspondente no banco de dados, insere o novo registro na tabela. As chaves para essa verificação são: latitude e longitude.
 
 ## Requerimentos de ambiente
 
