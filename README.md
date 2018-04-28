@@ -76,7 +76,7 @@ Projeto implantado com sucesso.
 
 ## Execução
 
-1. - Acessar a pasta onde se encontra o script .PY: "cd /home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/bin/"
+1. - Acessar a pasta onde se encontra o script .PY: cd /home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/bin/
 2. - Dar permissão de execução ao script "EnriquecimentoDados-APIGoogle.py": chmod +x EnriquecimentoDados-APIGoogle.py
 3. - Executar o script "EnriquecimentoDados-APIGoogle.py" com o interpretador Python via linha de comando no terminal do Linux: python EnriquecimentoDados-APIGoogle.py
 
