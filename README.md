@@ -1,6 +1,6 @@
 ## Problema
 
-Este mini-projeto foi proposto pelo colaborador [Tiago Prates Carneiro](https://github.com/tpcarneiro), ao qual eu me propus a desenvolver. O link original do projeto é este: [etl-python](https://github.com/tpcarneiro/dev-etl-python).
+Este mini-projeto foi proposto pelo colaborador [Tiago Prates Carneiro](https://github.com/tpcarneiro), ao qual eu me propus a desenvolver. [Aqui](https://github.com/tpcarneiro/dev-etl-python) está o link original do projeto.
 
 Há um arquivo de texto ("data_points.txt") em anexo à este repositório, contendo uma lista de coordenadas geográficas obtidas a partir do GPS de um dispositivo móvel. Necessita-se que esse arquivo seja processado e enriquecido com informações disponíveis na internet. O objetivo do enriquecimento é descobrir os endereços correspondentes às coordenadas. Para essa finalidade deve ser utilizada alguma API aberta, como por exemplo: _Google Maps_.
 
