@@ -56,22 +56,13 @@ O desenvolvimento da rotina visa buscar o conteúdo de um arquivo de entrada, co
 
 1. - Abrir o terminal de linha de comando do Linux
 2. - Acessar seu "home": cd /home/your_username/
-3. - Criar a pasta "Projetos" ("/home/your_username/Projetos/")
-4. - Acessar a pasta recém criada ("/home/your_username/Projetos/")
-5. - Clonar o projeto "Enriquecimento de Dados": git clone https://github.com/daniellj/EnriquecimentoDadosAPIGoogle
-6. - Acessar a pasta criada pelo clone: ("/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle")
-7. - Executar o script DDL no SGBD para criação dos objetos de banco de dados. O script está alocado em: ("/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/bin/CreateObjectsGeolocalizacao.sql")
-8. - Instalar as dependência do projeto (Python Libraries): via via terminal do Linux, acessar a pasta onde se encontra o arquivo "requirements.txt" (cd "/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/"). Após, digite/execute o comando a seguir: pip install -r requirements.txt
-9. - Abrir o script "EnriquecimentoDados-APIGoogle.py", alocado em "", com um editor de texto da sua preferência (indico o Notepad++). Após, editar os valores das seguintes variáveis (LINHA - indica a linha que está a posição da variável para edição!):
-
-#### Default Values - não modificar esses valores!
-LINHA 16 - filename = "data_points"<br />
-LINHA 17 - extension = "txt"<br />
-LINHA 18 - TABLENAME = 'geolocalizacao'<br />
-LINHA 19 - DB_USER = 'geolocalizacao'<br />
-LINHA 20 - DB_PASS = 'Geolx!177'<br />
-LINHA 21 - DB_NAME = 'geolocalizacao'<br />
-LINHA 22 - compare=['latitude', 'longitude']
+3. - Criar a pasta "Projetos": mkdir /home/your_username/Projetos/
+4. - Acessar a pasta recém criada: cd /home/your_username/Projetos/
+5. - Clonar o projeto "Enriquecimento de Dados" deste repositório: git clone https://github.com/daniellj/EnriquecimentoDadosAPIGoogle
+6. - Acessar a pasta criada pelo Git clone: cd /home/your_username/Projetos/EnriquecimentoDadosAPIGoogle
+7. - Executar o script DDL no SGBD para criação dos objetos de banco de dados. O script está alocado em: "/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/bin/CreateObjectsGeolocalizacao.sql"
+8. - Instalar as dependências do projeto (Python Libraries): via terminal do Linux, acessar a pasta onde se encontra o arquivo "requirements.txt" (cd /home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/). Após, digite/execute o comando à seguir: pip install -r requirements.txt
+9. - Abrir o script "EnriquecimentoDados-APIGoogle.py", alocado em "/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/bin/", com um editor de texto da sua preferência (indico o Notepad++). Após, editar os valores das seguintes variáveis (LINHA - indica a linha que está a posição da variável para edição!):
 
 #### Environment Config. - ajustar esses valores!
 LINHA 24 - filepath = "/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/data/"<br />
