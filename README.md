@@ -64,11 +64,11 @@ O desenvolvimento da rotina visa buscar o conteúdo de um arquivo de entrada, co
 8. - Instalar as dependências do projeto (Python Libraries): via terminal do Linux, acessar a pasta onde se encontra o arquivo "requirements.txt" (cd /home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/). Após, digite/execute o comando à seguir: pip install -r requirements.txt
 9. - Abrir o script "EnriquecimentoDados-APIGoogle.py", alocado em "/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/bin/", com um editor de texto da sua preferência (indico o Notepad++). Após, editar os valores das seguintes variáveis (LINHA - indica a linha que está a posição da variável para edição!):
 
-#### Environment Config. - ajustar esses valores!
-LINHA 24 - filepath = "/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/data/"<br />
-LINHA 25 - APIKEYGOOGLEMAPS = '' #inserir sua chave para conexão à API do Google Maps<br />
-LINHA 26 - DB_HOST = 'SGBD HostName or IP_Address'<br />
-LINHA 27 - DB_PORT = 'Port Number' # SGBD default Port Number<br />
+### Environment Config. - ajustar esses valores!
+LINHA 25 - filepath = "/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/data/" # folder where the "data_points.txt" file is located
+LINHA 26 - APIKEYGOOGLEMAPS = '' # your api key (Google Maps)
+LINHA 28 - DB_HOST = '' # SGBD HostName or IP_Address
+LINHA 29 - DB_PORT = '' # SGBD default Port Number
 
 10. - Salve as alterações do script ("EnriquecimentoDados-APIGoogle.py").
 
