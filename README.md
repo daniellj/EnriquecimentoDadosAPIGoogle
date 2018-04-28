@@ -64,28 +64,19 @@ O desenvolvimento da rotina visa buscar o conteúdo de um arquivo de entrada, co
 9. - Abrir o script "EnriquecimentoDados-APIGoogle.py" e editar os valores das seguintes variáveis (LINHA - indica a linha que está a posição da variável para edição!):
 
 #### Default Values - não modificar esses valores!
-LINHA 16 - filename = "data_points"\t
-LINHA 17 - extension = "txt"
-
-LINHA 18 - TABLENAME = 'geolocalizacao'
-
-LINHA 19 - DB_USER = 'geolocalizacao'
-
-LINHA 20 - DB_PASS = 'Geolx!177'
-
-LINHA 21 - DB_NAME = 'geolocalizacao'
-
+LINHA 16 - filename = "data_points"\n
+LINHA 17 - extension = "txt"\n
+LINHA 18 - TABLENAME = 'geolocalizacao'\n
+LINHA 19 - DB_USER = 'geolocalizacao'\n
+LINHA 20 - DB_PASS = 'Geolx!177'\n
+LINHA 21 - DB_NAME = 'geolocalizacao'\n
 LINHA 22 - compare=['latitude', 'longitude']
 
 #### Environment Config. - ajustar esses valores!
-LINHA 24 - filepath = "/home/your_username/Projetos/ETL_Python/data/"
-
-LINHA 25 - APIKEYGOOGLEMAPS = '' #inserir sua chave para conexão à API do Google Maps
-
-LINHA 26 - DB_HOST = 'MySQL Server HostName or IP_Address'
-
-LINHA 27 - DB_PORT = 3306 # MySQL default Port
-
+LINHA 24 - filepath = "/home/your_username/Projetos/ETL_Python/data/"\n
+LINHA 25 - APIKEYGOOGLEMAPS = '' #inserir sua chave para conexão à API do Google Maps\n
+LINHA 26 - DB_HOST = 'MySQL Server HostName or IP_Address'\n
+LINHA 27 - DB_PORT = 3306 # MySQL default Port\n
 10. - Salve as alterações do script ("EnriquecimentoDados-APIGoogle.py").
 
 Projeto implantado com sucesso.
