@@ -64,7 +64,7 @@ O desenvolvimento da rotina visa buscar o conteúdo de um arquivo de entrada, co
 9. - Abrir o script "EnriquecimentoDados-APIGoogle.py" e editar os valores das seguintes variáveis (LINHA - indica a linha que está a posição da variável para edição!):
 
 #### Default Values - não modificar esses valores!
-LINHA 16 - filename = "data_points"\n
+LINHA 16 - filename = "data_points"\t
 LINHA 17 - extension = "txt"
 
 LINHA 18 - TABLENAME = 'geolocalizacao'
