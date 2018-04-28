@@ -65,7 +65,7 @@ O desenvolvimento da rotina visa buscar o conteúdo de um arquivo de entrada, co
 9. - Abrir o script "EnriquecimentoDados-APIGoogle.py", alocado em "/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/bin/", com um editor de texto da sua preferência (indico o Notepad++). Após, editar os valores das seguintes variáveis (LINHA - indica a linha que está a posição da variável para edição!):
 
 #### Environment Config. - ajustar esses valores!
-LINHA 25 - filepath = "/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/data/" # folder where the "data_points.txt" file is located<br />
+LINHA 25 - filepath = '/home/your_username/Projetos/EnriquecimentoDadosAPIGoogle/data/' # folder where the "data_points.txt" file is located<br />
 LINHA 26 - APIKEYGOOGLEMAPS = '' # your api key (Google Maps)<br />
 LINHA 28 - DB_HOST = '' # SGBD HostName or IP_Address<br />
 LINHA 29 - DB_PORT = '' # SGBD default Port Number
