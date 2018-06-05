@@ -83,4 +83,4 @@ Projeto implantado com sucesso.
 Após a execução e finalização do processo de integração, aparacerá uma mensagem em tela: **"Processo de carga finalizado com sucesso!"**. Após isso, acesse o banco de dados e execute a query "SELECT * FROM geolocalizacao.geolocalizacao order by latitude, longitude". Espera-se que ocorram cargas incrementais e nunca tenham registros repetidos, por mais que se repita "N" vezes o processo com o mesmo arquivo da carga inicial ("data_points.txt").
 
 # Agradecimentos
-Agradeço ao [Tiago](https://github.com/tpcarneiro) pelo desafio. Me fez rever muitos conceitos para atender os requisitos do projeto, o que foi enriquecedor (assim como o nome do projeto: Enriquecimento de Dados).
+Agradeço ao [Tiago](https://github.com/tpcarneiro) pelo desafio.
