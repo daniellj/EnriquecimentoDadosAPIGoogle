@@ -81,6 +81,3 @@ Projeto implantado com sucesso.
 3. - Executar o script "EnriquecimentoDados-APIGoogle.py" com o interpretador Python via linha de comando no terminal do Linux: python EnriquecimentoDados-APIGoogle.py
 
 Após a execução e finalização do processo de integração, aparacerá uma mensagem em tela: **"Processo de carga finalizado com sucesso!"**. Após isso, acesse o banco de dados e execute a query "SELECT * FROM geolocalizacao.geolocalizacao order by latitude, longitude". Espera-se que ocorram cargas incrementais e nunca tenham registros repetidos, por mais que se repita "N" vezes o processo com o mesmo arquivo da carga inicial ("data_points.txt").
-
-# Agradecimentos
-Agradeço ao [Tiago](https://github.com/tpcarneiro) pelo desafio.
